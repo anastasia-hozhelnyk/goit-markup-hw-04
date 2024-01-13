@@ -334,6 +334,7 @@ width: 100%;
     justify-content: center;
     align-items: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .team-list-icon:hover,
@@ -375,6 +376,34 @@ width: 100%;
     width: calc((100% - 24px * 2) / 3);
     border: 1px solid #e7e9fc;
     border-top: none;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-item:hover {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.container-portfolio-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-overlay-text {
+    background-color: #4d5ae5;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+..portfolio-item:hover .card-overlay-text {
+    transform: translateY(0);
 }
 
 .portfolio-img {
@@ -398,9 +427,8 @@ width: 100%;
 .portfolio-item-text {
     color: #434455;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5em;
     letter-spacing: 0.02em;
-    
 }
 
 /*----------FOOTER---------*/
