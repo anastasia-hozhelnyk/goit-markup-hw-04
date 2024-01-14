@@ -203,7 +203,7 @@ width: 100%;
     background-color: #404BBF;
 }
 
-/*-----------FEATURES-----------*/
+/*-----------FEATURES-----------------*/
 .features {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -254,7 +254,7 @@ width: 100%;
     letter-spacing: 0.02em;
 }
 
-/*-----------------TEAM-------*/
+/*-----------------TEAM---------------*/
 
 .team {
 
@@ -337,7 +337,6 @@ width: 100%;
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .team-list-icon:hover,
@@ -363,6 +362,8 @@ width: 100%;
 .icon {
     fill: #f4f4fd;
 }
+
+/*-----------PORTFOLIO-------------*/
 
 .portfolio {
     padding: 120px 0 120px 0;
@@ -424,7 +425,7 @@ width: 100%;
 }
 
 .portfolio-img {
-    
+
 }
 
 .portfolio-item-title {
